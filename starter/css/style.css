@@ -43,7 +43,7 @@ body {
   position: relative;
 }
 
-.logo-box {
+.header__logo-box {
   position: absolute;
   top: 4rem;
   left: 4rem;
@@ -53,7 +53,7 @@ body {
   height: 3.5rem;
 }
 
-.heading-container {
+.header__heading-container {
   position: absolute;
   top: 40%;
   left: 50%;
@@ -68,7 +68,7 @@ body {
   margin: 6rem;
 }
 
-.heading-primary-main {
+.heading-primary--main {
   display: block;
   font-size: 6rem;
   font-weight: 400;
@@ -77,7 +77,7 @@ body {
   animation-duration: 2s;
 }
 
-.heading-primary-sub {
+.heading-primary--sub {
   display: block;
   font-size: 2rem;
   font-weight: 700;
@@ -107,7 +107,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 
-.btn-white {
+.btn--white {
   color: #777;
   background-color: #fff;
   font-size: 1.6rem;
